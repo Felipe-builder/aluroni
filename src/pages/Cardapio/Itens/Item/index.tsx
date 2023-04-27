@@ -22,7 +22,7 @@ export default function Item(
   return (
     <div className={styles.item}>
       <div className={styles.item__imagem}>
-        <img src={logo} alt={title} />
+        <img src={photo} alt={title} />
       </div>
       <div className={styles.item__descricao}>
         <div className={styles.item__titulo}>
